@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333333;
+}
+
+.flyer {
+    max-width: 450px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 0px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-bar, .footer-bar {
+    background-color: #a54f29;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.header-bar img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.footer-bar p {
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.footer-bar a {
+    color: #a8c6ff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 25px 20px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+.section h2, .section h3 {
+    margin: 0px 0px 15px 0px;
+    color: #004aad;
+}
+
+.section ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.section ul li {
+    background: #e0e7ff;
+    margin: 8px 0px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.qr-code img {
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+}
+
+a, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white; 
+    text-decoration: underline;
+}
+
+a.lienCorpsFlyer, a:link.lienCorpsFlyer {
+    color: #333333;
+}
+
+a:hover.lienCorpsFlyer {
+    color: #333333;
+}
+
+@media (max-width: 500px) {
+    .flyer {
+        max-width: 100%;
+        margin: 10px;
+    }
+    .section {
+        padding: 20px 15px;
+    }
+}
